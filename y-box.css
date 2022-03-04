@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.top{
+ margin-left: 20px;
+}
+.logo{
+    margin-left: 10px;
+    font-size: 1.7rem
+}
+.nav.justify-content-center{
+ justify-content: space-around !important;
+ background-color: red;
+}
+.nav-link{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background-color: lavender;
+    width: 90%;
+    padding: 30px;
+    margin: 10px auto;
+}
+.card img{
+    border-radius: 50%;
+    width: 100px;
+}
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 0 25px 0 25px;
+    background-color: skyblue;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.welcome{
+    width: 100%;
+    height: 800px;
+    background-image: url(https://thecontrollerpeople.com/wp-content/uploads/2019/06/Worst-Video-Game-Controllers-3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 200px;
+    border: 5px solid green;
+    border-radius: 50%;
+}
+p{
+    font-size: 3rem;
+    color: Black;
+}
+.footer{
+    background-color: gold;
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+}
+.box{
+    height: 75px;
+    width: 750px;
+    background-color: gray;
+    position: absolute;
+    top: 160px;
+    left: 350px;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10%;
+}
